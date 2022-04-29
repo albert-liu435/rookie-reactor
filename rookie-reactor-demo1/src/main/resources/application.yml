@@ -1,0 +1,17 @@
+#修改端口号
+server:
+  port: 9000
+
+
+
+logging:
+  level:
+    org:
+      springframework: debug
+    com:
+      rookie:
+        bigdata: debug
+
+#  logging.level.org.springframework=DEBUG
+#  logging.level.com.rookie=DEBUG
+#  logging.file=/log/log.log
